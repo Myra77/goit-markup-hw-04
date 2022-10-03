@@ -175,8 +175,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  align-items: center;
-  /* flex-grow: 1; */
+  margin: auto;
+  flex-grow: 1;
 }
 
 
