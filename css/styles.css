@@ -109,9 +109,10 @@ body {
 }
 
 .header-list .link {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
+  align-items: center;
 }
 
 .header-link {
@@ -158,9 +159,6 @@ body {
   color: var(--accent-color);  
 }
 
-/* .header-mail {
-  content: '';
-  background-image: url(../images/symbol-defs.svg#icon-envelope); */
 /* ---------Hero------------- */
 
 .hero {
@@ -178,21 +176,6 @@ body {
   margin: 0 auto;
   flex-grow: 1;
 }
-
-
-/* .overlay {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto; */
-  /* background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)),
-  url(../images/Hero-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  flex-grow: 1; */
 
 .hero-container {
   align-items: center;
@@ -498,7 +481,7 @@ body {
 }
 
 .footer-container {
-  max-width: 300px;
+  margin-right: 70px;
 }
 
 .footer-soc-link {
@@ -578,9 +561,14 @@ body {
   row-gap: 30px;
 }
 
-.projects:hover,
-.projects:focus {
+.project-catalogue:hover,
+.project-catalogue:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.project-catalogue {
+  display: block;
+  text-decoration: none;
 }
 
 .our-project {
